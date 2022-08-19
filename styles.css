@@ -1,0 +1,140 @@
+.logo{
+    transition: 400ms;
+}
+
+body{
+    background:#edf0f9;
+    width:auto;
+    height:auto;
+}
+
+main{ 
+    display:flex;
+    margin-left: 10em;
+    margin-right: auto;
+    transition: 1s ;
+    
+}
+
+.input-texto{
+    background-color: inherit;
+    display: block;
+    border: none;
+    resize: none;
+    width: 650px;
+    height: 430px;
+    text-indent: 30px;
+    font-size: 25px;
+    color: #0A3871;
+    padding-top: 3em;
+    outline: none;
+}
+.input p{
+    margin:12px 12px;
+    color: gray;
+    font-size: 18px;
+}
+
+.botones{
+    display: flex;
+}
+
+.encriptar{
+    padding: 24px;
+    width: 315px;
+    height: 67px;
+    background:#0A3871;
+    color: #ffffff;
+    border-radius: 25px;
+    border-color: #0A3871;
+    cursor: pointer;
+}
+.encriptar:hover{
+    padding: 2%;
+    font-size: 100%;
+}
+.encriptar:active{
+    background: #04254f;
+}
+
+.desencriptar{
+    padding: 24px;
+    width: 315px;
+    height: 67px;
+    border-radius: 25px;
+    margin-left:25px ; 
+    border-color: #0A3871;  
+    color: #0A3871;
+    cursor: pointer;
+}
+.desencriptar:hover{
+    padding: 2%;
+    font-size: 100%;
+}
+.desencriptar:active{
+    background: #beced7;
+}
+.mensaje{
+    background-color: #ffffff;
+    width: 650px;
+    height: 430px;
+    display: block;
+    border: none;
+    border-radius: 10%; 
+    resize: none;
+    text-indent: 30px;
+    font-size: 25px;
+    color: #0A3871;
+    padding-top: 3em;
+    outline: none;
+    box-shadow: 0px -0px 10px 5px rgb(0 0 0 / 30%);
+    background-image:url(imagenes/muñeco.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.copy{
+    padding: 24px;
+    width: 315px;
+    height: 67px;
+    margin-top: 15px;
+    margin-left: 25%;
+    border-radius: 25px;
+    border-color: #0A3871;
+    color: #0A3871;
+    cursor: pointer;
+}
+.copy:hover{
+    padding: 2%;
+    font-size: 100%;
+}
+.copy:active{
+    background: #beced7;
+}
+
+footer{
+
+    margin-top: 3em;
+    width: auto;
+    padding: 3px;
+    color: rgb(62, 62, 206);
+    background-color: #edf0f9;
+    text-align: center;
+}
+footer p{
+    
+    margin:30px 12px 12px;
+}
+    
+nav li{
+    display: inline;
+    width: 40em;
+}
+
+nav li a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+
