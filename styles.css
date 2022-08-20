@@ -12,14 +12,14 @@ main{
     display:flex;
     margin-left: 5em;
     margin-right: auto;
-    transition: 1s ;
+    transition: 2s ;
     
 }
 
 .input-texto{
     background-color: inherit;
     display: block;
-    border: none;
+    border:none;
     resize: none;
     width: auto;
     height: 430px;
@@ -37,6 +37,7 @@ main{
 
 .botones{
     display: flex;
+    transition: 2s
 }
 
 .encriptar{
@@ -91,6 +92,7 @@ main{
     background-image:url(imagenes/muñeco.png);
     background-repeat: no-repeat;
     background-position: center;
+    transition: 2s
 }
 
 .copy{
@@ -120,9 +122,9 @@ footer{
     color: rgb(62, 62, 206);
     background-color: #edf0f9;
     text-align: center;
+    transition: 5s
 }
 footer p{
-    
     margin:30px 12px 12px;
 }
     
@@ -135,6 +137,3 @@ nav li a{
     color: #ffffff;
     text-decoration: none;
 }
-
-
-
