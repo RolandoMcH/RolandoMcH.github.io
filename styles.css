@@ -76,8 +76,8 @@ main{
 }
 .mensaje{
     background-color: #ffffff;
-    width: 650px;
-    height: 430px;
+    width: 450px;
+    height: 456px;
     display: block;
     border: none;
     border-radius: 10%; 
@@ -135,7 +135,6 @@ nav li a{
     color: #ffffff;
     text-decoration: none;
 }
-
 
 
 
